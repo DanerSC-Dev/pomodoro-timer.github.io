@@ -1,0 +1,85 @@
+    /*--font-size: 1em;
+    --font-titles: #487AD6;
+    --bg-color: #000034;
+    --shadow-color: #538CF7;*/
+body{
+	font-family: sans-serif, Arial, Georgia;
+	background-color: #000034;
+}
+h1{
+	text-align: center;
+	line-height: 35px;
+	color: #487AD6;
+	text-shadow: -5px -2px 17px #538CF7;
+}
+/*Panel Work/Break*/
+#panel{
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+    border: 2px solid #fff;
+    box-shadow: -1px -2px 17px#CFD4DF;
+    border-radius: 40px;
+	margin: 18px auto;
+}
+#panel h2{
+    line-height: 50px;
+    color: #fff;
+    text-shadow:  -1px -2px 17px#CFD4DF;
+}
+
+#panel #work.active{
+	color: #F82819;
+	text-shadow: -1px -2px 17px #F85219;
+}
+#panel #break.active{
+	color: #F82819;
+	text-shadow: -1px -2px 17px #F85219;
+}
+/*Cronometro*/
+
+#crono{
+	width: 320px;
+	height: 320px;
+	display: flex;
+	justify-content: center;
+	border: 5px solid #F82819;
+	border-radius: 50%;
+	box-shadow: -2px -2px 20px #F85219;
+	margin: auto;
+}
+#crono p{
+    line-height: 210px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: -1px -2px 17px#CFD4DF;
+}
+#controls{
+	width: 200px;
+	border: 1px solid #fff;
+	box-shadow: -1px -2px 17px#CFD4DF;
+	border-radius: 40px;
+	display: flex;
+	justify-content: space-around;
+	margin: 15px auto;
+	padding: 10px;
+}
+
+#replay{
+	margin-top: 5px;
+    font-size: 37px;
+    color: #fff;
+    text-shadow: -1px -2px 17px#CFD4DF;
+    display: none;
+}
+#pause{
+	display: none;
+}
+#play, #pause{
+	font-size: 50px;
+	color: #fff;
+    text-shadow: -1px -2px 17px#CFD4DF;
+}
+#controls span:hover{
+	cursor: pointer;
+}
